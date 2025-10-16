@@ -1,0 +1,319 @@
+{
+  "resources": 
+  [
+    {
+      "path": "ACOMPANHAMENTOS-MG-2007-01-01-2016-12-31.xlsx",
+      "name": "acompanhamentos-mg-2007-01-01-2016-12-31",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "PROTOCOLO",
+            "type": "integer"
+          },
+          {
+            "name": "SEQUENCIA DO ACOMPANHAMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "STATUS ACOMPANHAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DATA DO ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "HORA ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "UF OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "USUARIO RESPONSAVEL",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "ACOMPANHAMENTOS-MG-2017-01-01-2017-12-31.xlsx",
+      "name": "acompanhamentos-mg-2017-01-01-2017-12-31",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "PROTOCOLO",
+            "type": "integer"
+          },
+          {
+            "name": "SEQUENCIA DO ACOMPANHAMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "STATUS ACOMPANHAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DATA DO ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "HORA ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "UF OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "USUARIO RESPONSAVEL",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "ACOMPANHAMENTOS-MG-2018-01-01-2020-12-31.xlsx",
+      "name": "acompanhamentos-mg-2018-01-01-2020-12-31",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "PROTOCOLO",
+            "type": "integer"
+          },
+          {
+            "name": "SEQUENCIA DO ACOMPANHAMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "STATUS ACOMPANHAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DATA DO ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "HORA ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "UF OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "USUARIO RESPONSAVEL",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "ACOMPANHAMENTOS-MG-2021-01-01.xlsx",
+      "name": "acompanhamentos-mg-2021-01-01",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "PROTOCOLO",
+            "type": "integer"
+          },
+          {
+            "name": "SEQUENCIA DO ACOMPANHAMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "STATUS ACOMPANHAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DATA DO ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "HORA ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "UF OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "USUARIO RESPONSAVEL",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "BD_EST_MUN_MG.xlsx",
+      "name": "bd_est_mun_mg",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "PROTOCOLO",
+            "type": "integer"
+          },
+          {
+            "name": "DATA DA DEMANDA",
+            "type": "datetime"
+          },
+          {
+            "name": "MEIO DE ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "ORIGEM DO ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DEMANDA ATIVA?",
+            "type": "string"
+          },
+          {
+            "name": "STATUS",
+            "type": "string"
+          },
+          {
+            "name": "TECNICO RESP CADASTRO",
+            "type": "string"
+          },
+          {
+            "name": "DATA DO FECHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "CLASSIFICACAO",
+            "type": "string"
+          },
+          {
+            "name": "ASSUNTO",
+            "type": "string"
+          },
+          {
+            "name": "SUBASSUNTO 1",
+            "type": "string"
+          },
+          {
+            "name": "SUBASSUNTO 2",
+            "type": "string"
+          },
+          {
+            "name": "SUBASSUNTO 3",
+            "type": "string"
+          },
+          {
+            "name": "FARMACO",
+            "type": "any"
+          },
+          {
+            "name": "DAPS",
+            "type": "any"
+          },
+          {
+            "name": "ESTAB COMERCIAL",
+            "type": "any"
+          },
+          {
+            "name": "DESTINO ATUAL",
+            "type": "string"
+          },
+          {
+            "name": "MUN DESTINO ATUAL",
+            "type": "string"
+          },
+          {
+            "name": "UF DESTINO ATUAL",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA DESTINO ATUAL",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO CIDADAO",
+            "type": "string"
+          },
+          {
+            "name": "UF CIDADAO",
+            "type": "string"
+          },
+          {
+            "name": "SIGILOSO?",
+            "type": "string"
+          },
+          {
+            "name": "ANONIMO?",
+            "type": "string"
+          },
+          {
+            "name": "DIAS DE TRAMITACAO",
+            "type": "integer"
+          },
+          {
+            "name": "REABERTA?",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package"
+}

@@ -1,0 +1,667 @@
+{
+  "resources": [
+      {
+      "path": "Banco de Dados - Lista Ouvidorias 1, 2.xlsx",
+      "name": "banco-de-dados-lista-ouvidorias-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "municipio",
+            "type": "string"
+          },
+          {
+            "name": "ouvidoria",
+            "type": "string"
+          },
+          {
+            "name": "tipo_ouvidoria",
+            "type": "string"
+          },
+          {
+            "name": "registro_ativo",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "Banco de Dados - Novo OuvidorSUS - Histórico de Situação e Status.xlsx",
+      "name": "banco-de-dados-novo-ouvidorsus-historico-de-situacao-e-status",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "NUMERO_MANIFESTACAO",
+            "type": "integer"
+          },
+          {
+            "name": "NUMERO_ATENDIMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "DATA_ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_CONCLUSAO_PONTO_DE_RESPOSTA",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_DE_CONCLUSAO_OUVIDORIA",
+            "type": "datetime"
+          },
+          {
+            "name": "CANAL_ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "SITUACAO_ACOMPANHAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "ORIGEM_ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "NOME_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "STATUS_MANIFESTACAO",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "Banco de Dados - Novo OuvidorSUS - Lista Ouvidorias 1, 2.xlsx",
+      "name": "banco-de-dados-novo-ouvidorsus-lista-ouvidorias-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "MUNICIPIO",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "REGISTRO_ATIVO",
+            "type": "string"
+          },
+          {
+            "name": "NIVEL_OUVIDORIA",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA_VINCULADA",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "Banco de Dados - Novo OuvidorSUS - Sugestões+Teor.xlsx",
+      "name": "banco-de-dados-novo-ouvidorsus-sugestoes-teor",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "NUMERO_MANIFESTAÇÃO",
+            "type": "integer"
+          },
+          {
+            "name": "NUMERO_ATENDIMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "DATA_MANIFESTACAO",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_CONCLUSAO_PONTO_DE_RESPOSTA",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_DE_CONCLUSÃO_OUVIDORIA",
+            "type": "datetime"
+          },
+          {
+            "name": "CANAL_DE_ENTRADA",
+            "type": "string"
+          },
+          {
+            "name": "CLASSIFICAÇÃO_MANIFESTAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "TÉCNICO_ATUAL",
+            "type": "any"
+          },
+          {
+            "name": "RESPONSÁVEL_PELO_CADASTRO_DA_MANIFESTAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "UF_DO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "MUNICÍPIO_DO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "ORIGEM_ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "NOME_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "NIVEL_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "REFERIDO",
+            "type": "any"
+          },
+          {
+            "name": "LOCAL_FATO",
+            "type": "any"
+          },
+          {
+            "name": "UF_FATO",
+            "type": "any"
+          },
+          {
+            "name": "MUNICIPIO_FATO",
+            "type": "any"
+          },
+          {
+            "name": "DATA_ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "SITUACAO_ACOMPANHAMENTO_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "STATUS_MANIFESTACAO",
+            "type": "string"
+          },
+          {
+            "name": "TIPIFICAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "MARCADOR_TAG",
+            "type": "any"
+          },
+          {
+            "name": "DOENÇA",
+            "type": "any"
+          },
+          {
+            "name": "MEDICAMENTO",
+            "type": "any"
+          },
+          {
+            "name": "STATUS_PROBLEMA",
+            "type": "string"
+          },
+          {
+            "name": "TEMPO_DE_VIDA",
+            "type": "integer"
+          },
+          {
+            "name": "CNS_FATO",
+            "type": "any"
+          },
+          {
+            "name": "CNPJ_FATO",
+            "type": "any"
+          },
+          {
+            "name": "TEOR_MANIFESTACAO",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "Banco de Dados - Novo OuvidorSUS - Teor.xlsx",
+      "name": "banco-de-dados-novo-ouvidorsus-teor",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "NUMERO_MANIFESTAÇÃO",
+            "type": "integer"
+          },
+          {
+            "name": "NUMERO_ATENDIMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "DATA_MANIFESTACAO",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_CONCLUSAO_PONTO_DE_RESPOSTA",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_DE_CONCLUSÃO_OUVIDORIA",
+            "type": "datetime"
+          },
+          {
+            "name": "CANAL_DE_ENTRADA",
+            "type": "string"
+          },
+          {
+            "name": "CLASSIFICAÇÃO_MANIFESTAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "TÉCNICO_ATUAL",
+            "type": "any"
+          },
+          {
+            "name": "RESPONSÁVEL_PELO_CADASTRO_DA_MANIFESTAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "UF_DO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "MUNICÍPIO_DO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "ORIGEM_ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "NOME_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "NIVEL_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "REFERIDO",
+            "type": "string"
+          },
+          {
+            "name": "LOCAL_FATO",
+            "type": "string"
+          },
+          {
+            "name": "UF_FATO",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_FATO",
+            "type": "string"
+          },
+          {
+            "name": "DATA_ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "SITUACAO_ACOMPANHAMENTO_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "STATUS_MANIFESTACAO",
+            "type": "string"
+          },
+          {
+            "name": "TIPIFICAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "MARCADOR_TAG",
+            "type": "any"
+          },
+          {
+            "name": "DOENÇA",
+            "type": "string"
+          },
+          {
+            "name": "MEDICAMENTO",
+            "type": "any"
+          },
+          {
+            "name": "STATUS_PROBLEMA",
+            "type": "string"
+          },
+          {
+            "name": "TEMPO_DE_VIDA",
+            "type": "integer"
+          },
+          {
+            "name": "CNS_FATO",
+            "type": "integer"
+          },
+          {
+            "name": "CNPJ_FATO",
+            "type": "any"
+          },
+          {
+            "name": "TEOR_MANIFESTACAO",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "Banco de Dados - Novo OuvidorSUS.xlsx",
+      "name": "banco-de-dados-novo-ouvidorsus",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "NUMERO_MANIFESTAÇÃO",
+            "type": "integer"
+          },
+          {
+            "name": "NUMERO_ATENDIMENTO",
+            "type": "integer"
+          },
+          {
+            "name": "DATA_MANIFESTACAO",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_CONCLUSAO_PONTO_DE_RESPOSTA",
+            "type": "datetime"
+          },
+          {
+            "name": "PRAZO_DE_CONCLUSÃO_OUVIDORIA",
+            "type": "datetime"
+          },
+          {
+            "name": "CANAL_DE_ENTRADA",
+            "type": "string"
+          },
+          {
+            "name": "CLASSIFICAÇÃO_MANIFESTAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "TÉCNICO_ATUAL",
+            "type": "any"
+          },
+          {
+            "name": "RESPONSÁVEL_PELO_CADASTRO_DA_MANIFESTAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "UF_DO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "MUNICÍPIO_DO_MANIFESTANTE",
+            "type": "string"
+          },
+          {
+            "name": "ORIGEM_ATENDIMENTO",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA_OUVIDORIA_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "NOME_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "UF_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "ESFERA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "NIVEL_OUVIDORIA_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "REFERIDO",
+            "type": "string"
+          },
+          {
+            "name": "LOCAL_FATO",
+            "type": "string"
+          },
+          {
+            "name": "UF_FATO",
+            "type": "string"
+          },
+          {
+            "name": "MUNICIPIO_FATO",
+            "type": "string"
+          },
+          {
+            "name": "DATA_ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "SITUACAO_ACOMPANHAMENTO_DESTINO",
+            "type": "string"
+          },
+          {
+            "name": "STATUS_MANIFESTACAO",
+            "type": "string"
+          },
+          {
+            "name": "TIPIFICAÇÃO",
+            "type": "string"
+          },
+          {
+            "name": "MARCADOR_TAG",
+            "type": "any"
+          },
+          {
+            "name": "DOENÇA",
+            "type": "string"
+          },
+          {
+            "name": "MEDICAMENTO",
+            "type": "any"
+          },
+          {
+            "name": "STATUS_PROBLEMA",
+            "type": "string"
+          },
+          {
+            "name": "TEMPO_DE_VIDA",
+            "type": "integer"
+          },
+          {
+            "name": "CNS_FATO",
+            "type": "integer"
+          },
+          {
+            "name": "CNPJ_FATO",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "PRODUTIVIDADE USUÁRIOS DE MG.xlsx",
+      "name": "produtividade-usuarios-de-mg",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "xlsx",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "PROTOCOLO",
+            "type": "integer"
+          },
+          {
+            "name": "STATUS",
+            "type": "string"
+          },
+          {
+            "name": "DATA ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "HORA ACOMPANHAMENTO",
+            "type": "datetime"
+          },
+          {
+            "name": "USUÁRIO",
+            "type": "string"
+          },
+          {
+            "name": "OUVIDORIA",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package"
