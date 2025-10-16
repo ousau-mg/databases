@@ -1,0 +1,16 @@
+Sistema,nome arquivo base MS,nome aba base MS,nome arquivo base OGE,nome aba base OGE,granularidade,OBS
+Antigo,ACOMPANHAMENTOS-MG-2007-01-01-2016-12-31,Sheet0,OuSUS - Mensal ,“2007 – 2016” ,aba,
+Antigo,ACOMPANHAMENTOS-MG-2017-01-01-2017-12-31,Sheet0,OuSUS - Mensal ,“2017”,aba,
+Antigo,ACOMPANHAMENTOS-MG-2018-01-01-2020-12-31,Sheet0,OuSUS - Semanal ,“2018 – 2020” ,aba,
+Antigo,ACOMPANHAMENTOS-MG-2021-01-01,Sheet0,OuSUS - Semanal ,“2021-“ ,aba,data-hora em vez de hora no formato da coluna D
+Antigo,ACOMPANHAMENTOS-MG-2021-01-01,Sheet1,OuSUS - Semanal ,“2024” ,aba,aba '2024' correspondente à segunda aba do arquivo original de 2021
+Antigo,PRODUTIVIDADE USUÁRIOS DE MG,Sheet0,PRODUTIVIDADE DE MG,Sheet0,arquivo,
+Antigo,Banco de Dados - Lista Ouvidorias 1, 2,Sheet0,Lista Ouvidorias 1 e 2 - OuvidorSUS 1,Sheet0,arquivo,
+Antigo+Novo,BD_EST_MUN_MG,,OuSUS - Completa,Completa,arquivo,
+Novo,Banco de Dados - Novo OuvidorSUS,Sheet0,OUSUS 02,Sheet0,arquivo,formato datas colunas C, D e E: mm/dd/aaa em vez de dd/mm/aaaa
+Novo,Banco de Dados - Novo OuvidorSUS - Histórico de Situação e Status,Sheet0,Historico - OUSUS2,Sheet0,aba,"data-hora em vez de data no formato da coluna C; tabela cheia no excel"
+Novo,Banco de Dados - Novo OuvidorSUS - Histórico de Situação e Status,Sheet1,Historico - OUSUS2,Sheet1,aba,segunda aba com menos linhas que na base original
+Novo,Banco de Dados - Novo OuvidorSUS - Lista Ouvidorias 1, 2,Sheet0,Lista Ouvidorias 1 e 2 - OuvidorSUS 2,Sheet0,arquivo,
+,,,Matriz Saúde,,,
+,,,De Para - tipificações,,,
+,,,Matriz saúde - base nova até 01-12,,,
