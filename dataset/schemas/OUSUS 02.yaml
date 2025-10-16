@@ -1,0 +1,85 @@
+profile: data-package
+resources:
+  - encoding: utf-8
+    format: xlsx
+    hashing: md5
+    name: banco-de-dados-novo-ouvidorsus
+    path: Banco de Dados - Novo OuvidorSUS.xlsx
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: NUMERO_MANIFESTAÇÃO
+          type: integer
+        - name: NUMERO_ATENDIMENTO
+          type: integer
+        - name: DATA_MANIFESTACAO
+          type: datetime
+        - name: PRAZO_CONCLUSAO_PONTO_DE_RESPOSTA
+          type: datetime
+        - name: PRAZO_DE_CONCLUSÃO_OUVIDORIA
+          type: datetime
+        - name: CANAL_DE_ENTRADA
+          type: string
+        - name: CLASSIFICAÇÃO_MANIFESTAÇÃO
+          type: string
+        - name: TÉCNICO_ATUAL
+          type: any
+        - name: RESPONSÁVEL_PELO_CADASTRO_DA_MANIFESTAÇÃO
+          type: string
+        - name: TIPO_MANIFESTANTE
+          type: string
+        - name: UF_DO_MANIFESTANTE
+          type: string
+        - name: MUNICÍPIO_DO_MANIFESTANTE
+          type: string
+        - name: ORIGEM_ATENDIMENTO
+          type: string
+        - name: OUVIDORIA_ORIGEM
+          type: string
+        - name: MUNICIPIO_OUVIDORIA_ORIGEM
+          type: string
+        - name: UF_OUVIDORIA_ORIGEM
+          type: string
+        - name: ESFERA_OUVIDORIA_ORIGEM
+          type: string
+        - name: NOME_OUVIDORIA_DESTINO
+          type: string
+        - name: MUNICIPIO_OUVIDORIA_DESTINO
+          type: string
+        - name: UF_OUVIDORIA_DESTINO
+          type: string
+        - name: ESFERA_DESTINO
+          type: string
+        - name: NIVEL_OUVIDORIA_DESTINO
+          type: string
+        - name: REFERIDO
+          type: string
+        - name: LOCAL_FATO
+          type: string
+        - name: UF_FATO
+          type: string
+        - name: MUNICIPIO_FATO
+          type: string
+        - name: DATA_ACOMPANHAMENTO
+          type: datetime
+        - name: SITUACAO_ACOMPANHAMENTO_DESTINO
+          type: string
+        - name: STATUS_MANIFESTACAO
+          type: string
+        - name: TIPIFICAÇÃO
+          type: string
+        - name: MARCADOR_TAG
+          type: any
+        - name: DOENÇA
+          type: string
+        - name: MEDICAMENTO
+          type: any
+        - name: STATUS_PROBLEMA
+          type: string
+        - name: TEMPO_DE_VIDA
+          type: integer
+        - name: CNS_FATO
+          type: integer
+        - name: CNPJ_FATO
+          type: any
+    scheme: file

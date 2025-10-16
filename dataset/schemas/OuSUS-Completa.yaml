@@ -1,0 +1,63 @@
+profile: data-package
+resources:
+  - encoding: utf-8
+    format: xlsx
+    hashing: md5
+    name: bd_est_mun_mg
+    path: BD_EST_MUN_MG.xlsx
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: PROTOCOLO
+          type: integer
+        - name: DATA DA DEMANDA
+          type: datetime
+        - name: MEIO DE ATENDIMENTO
+          type: string
+        - name: ORIGEM DO ATENDIMENTO
+          type: string
+        - name: DEMANDA ATIVA?
+          type: string
+        - name: STATUS
+          type: string
+        - name: TECNICO RESP CADASTRO
+          type: string
+        - name: DATA DO FECHAMENTO
+          type: datetime
+        - name: CLASSIFICACAO
+          type: string
+        - name: ASSUNTO
+          type: string
+        - name: SUBASSUNTO 1
+          type: string
+        - name: SUBASSUNTO 2
+          type: string
+        - name: SUBASSUNTO 3
+          type: string
+        - name: FARMACO
+          type: any
+        - name: DAPS
+          type: any
+        - name: ESTAB COMERCIAL
+          type: any
+        - name: DESTINO ATUAL
+          type: string
+        - name: MUN DESTINO ATUAL
+          type: string
+        - name: UF DESTINO ATUAL
+          type: string
+        - name: ESFERA DESTINO ATUAL
+          type: string
+        - name: MUNICIPIO CIDADAO
+          type: string
+        - name: UF CIDADAO
+          type: string
+        - name: SIGILOSO?
+          type: string
+        - name: ANONIMO?
+          type: string
+        - name: DIAS DE TRAMITACAO
+          type: integer
+        - name: REABERTA?
+          type: string
+    scheme: file
