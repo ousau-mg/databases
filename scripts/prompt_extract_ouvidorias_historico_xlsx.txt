@@ -1,0 +1,18 @@
+#Install-Module -Name ImportExcel -Force
+'C:\Users\m6695506\Documents\WindowsPowerShell\Modules -Scope CurrentUser - Force'
+
+
+# Substitua pelo caminho real do seu arquivo Excel
+$CaminhoArquivo = "C:\Users\m6695506\Documents\OGE\BASES_BI\20251009_BI\Banco de Dados -Historico OUSUS2.xlsx"
+
+# Substitua pelo nome exato do cabeçalho da coluna
+$NomeDaColuna = "NOME_OUVIDORIA_DESTINO"
+
+# Substitua pelo nome da aba (planilha) do seu arquivo Excel
+$NomeDaPlanilha = "Sheet0"
+
+# Importa o arquivo Excel e seleciona os dados únicos da coluna
+Import-Excel -Path $CaminhoArquivo -WorksheetName $NomeDaPlanilha |
+    Select-Object -ExpandProperty $NomeDaColuna -Unique |
+    Select-Object @{Name=$NomeDaColuna;Expression={$_}} |
+    Export-Csv -Path "C:\Users\m6695506\Documents\OGE\BASES_BI\Historico_20251002_NOME_OUVIDORIA_DESTINO.csv" -NoTypeInformation -Encoding UTF8

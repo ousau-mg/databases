@@ -1,0 +1,15 @@
+    # Substitua "C:\Users\m6695506\Documents\OGE\BASES_BI\20251002_BI\Historico - OUSUS2.csv" pelo caminho real do seu arquivo
+    $CaminhoArquivo = "C:\Users\m6695506\Documents\OGE\BASES_BI\20251002_BI\Historico - OUSUS2.csv"
+    # Substitua "NomeDaColuna" pelo nome exato do cabeçalho da coluna que você quer extrair
+    $NomeDaColuna = "NOME_OUVIDORIA_DESTINO"
+
+    # Importa o CSV e seleciona os dados da coluna desejada
+    $ColunaExtraida = Import-Csv -Path $CaminhoArquivo | Select-Object -ExpandProperty $NomeDaColuna
+
+    # Importa o CSV, especificando a codificação correta
+    # Use -Encoding "Windows-1252" para tentar ler caracteres acentuados corretamente
+    Import-Csv -Path $CaminhoArquivo -Encoding "UTF8" | 
+    Select-Object -ExpandProperty  $NomeDaColuna -Unique | 
+    Select-Object @{Name=$NomeDaColuna;Expression={$_}} | 
+    Export-Csv -Path "C:\Users\m6695506\Documents\OGE\BASES_BI\Historico_20251002_NOME_OUVIDORIA_DESTINO.csv" -Encoding UTF8
+

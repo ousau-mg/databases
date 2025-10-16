@@ -1,0 +1,30 @@
+cd C:\Users\m6695506\Documents\OGE\BASES_BI
+
+@echo off
+set DATE_STRING=%date%
+
+rem Parse the date components based on the DD/MM/YYYY format
+set day=%DATE_STRING:~0,2%
+set month=%DATE_STRING:~3,2%
+set year=%DATE_STRING:~6,4%
+
+rem Combine the components into the desired format and save to the 'date' variable
+set _date=%year%%month%%day%
+
+rem Echo the variable to confirm the value
+echo The formatted date is: %_date%
+
+robocopy "C:\Users\m6695506\Documents\OGE\BASES_BI\20251009" "C:\Users\m6695506\Documents\OGE\BASES_BI\%_date%_BI" /s /e
+
+cd C:\Users\m6695506\Documents\OGE\BASES_BI\%_date%_BI"
+
+ren "ACOMPANHAMENTOS-MG-2007-01-01-2016-12-31.xlsx" "OuSUS - Mensal_2007-2016.xlsx" 
+ren "ACOMPANHAMENTOS-MG-2017-01-01-2017-12-31.xlsx" "OuSUS - Mensal_2017.xlsx" 
+ren "ACOMPANHAMENTOS-MG-2018-01-01-2020-12-31.xlsx" "OuSUS - Semanal_2018-2020.xlsx"
+ren "ACOMPANHAMENTOS-MG-2021-01-01.xlsx" "OuSUS - Semanal-2021-2024.xlsx"
+ren "PRODUTIVIDADE USUÁRIOS DE MG.xlsx" "PRODUTIVIDADE DE MG.xlsx"
+ren "Banco de Dados - Lista Ouvidorias 1, 2.xlsx" "Lista Ouvidorias 1 e 2 - OuvidorSUS 1.xlsx"
+ren "BD_EST_MUN_MG.xlsx" "OuSUS - Completa.xlsx"
+ren "Banco de Dados - Novo OuvidorSUS.xlsx" "OUSUS 02.xlsx"
+ren "Banco de Dados - Novo OuvidorSUS - Historico de Situaçao e Status.xlsx" "Historico - OUSUS2.xlsx"
+ren "Banco de Dados - Novo OuvidorSUS - Lista Ouvidorias 1, 2.xlsx" "Lista Ouvidorias 1 e 2 - OuvidorSUS 2.xlsx"
